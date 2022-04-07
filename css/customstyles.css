@@ -745,11 +745,11 @@ a.dropdown-toggle.otherProgLangs {
 
 span.muted {color: #666;}
 
-table code {background-color: #fcba03;}
+table code {background-color: transparent;}
 
 .highlight .err {
     color: #a61717;
-    background-color: transparent !important;
+    background-color: #a61717 !important;
 }
 
 table p {
