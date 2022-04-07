@@ -749,7 +749,7 @@ table code {background-color: transparent;}
 
 .highlight .err {
     color: #a61717;
-    background-color: #a61717 !important;
+    background-color: transparent !important;
 }
 
 table p {
