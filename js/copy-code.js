@@ -9,6 +9,8 @@ copyCodeButtons.forEach((copyCodeButton, index) => {
     // Copy the code to the user's clipboard
     window.navigator.clipboard.writeText(code);
 
+    window.alert(5 + 6);
+
     // Update the button text visually
     const { innerText: originalText } = copyCodeButton;
     copyCodeButton.innerText = 'Copied!';
