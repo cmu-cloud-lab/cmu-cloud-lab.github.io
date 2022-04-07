@@ -1,4 +1,4 @@
-.highlight  { background: #42f55d; }
+.highlight  { background: #ffffff; } /* Should be controlling code block color, but isn't.*/
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */
