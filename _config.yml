@@ -12,12 +12,6 @@ site_title: CMU Cloud Lab Documentation
 company_name: Ryan Nelson
 # this appears in the footer
 
-github_editme_path: cmu-cloud-lab/cmu-cloud-lab.github.io/tree/dev/
-# if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
-
-# gitlab_editme_path: 
-# if you're using GitLab, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
-
 host: 127.0.0.1
 # the preview server used. Leave as is.
 
