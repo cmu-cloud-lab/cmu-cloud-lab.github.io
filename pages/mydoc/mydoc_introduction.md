@@ -8,7 +8,7 @@ folder: mydoc
 ## Overview
 b
 
-{% include codeHeader.html %}
+{% include code_header.html %}
 ```
 Test code
 ```
