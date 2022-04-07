@@ -18,6 +18,12 @@ search: exclude
 {% endunless %}
 {% endfor %}
 
-
+{
+"title": "Test post from last year",
+"tags": "news",
+"keywords": "",
+"url": "test-post-from-last-year.html",
+"summary": ""
+}
 
 ]
