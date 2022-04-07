@@ -9,8 +9,8 @@ folder: mydoc
 b
 
 {% include code_header.html %}
-```
-Test code
+```bash
+ls -l
 ```
 
 {% include links.html %}
