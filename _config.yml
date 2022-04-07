@@ -9,7 +9,7 @@ topnav_title: CMU Cloud Lab Documentation
 site_title: CMU Cloud Lab Documentation
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: Copyright 2022 Carnegie Mellon University
+company_name: Carnegie Mellon University
 # this appears in the footer
 
 github_editme_path: cmu-cloud-lab/cmu-cloud-lab.github.io/dev/
