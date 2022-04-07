@@ -3,16 +3,16 @@ repository: cmu-cloud-lab/cmu-cloud-lab.github.io
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Jekyll Documentation Theme
+topnav_title: CMU Cloud Lab Documentation
 # this appears on the top navigation bar next to the home button
 
-site_title: Jekyll theme for documentation
+site_title: CMU Cloud Lab Documentation
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: Copyright 2021 Google LLC
+company_name: Copyright 2022 Carnegie Mellon University
 # this appears in the footer
 
-github_editme_path: cmu-cloud-lab/cmu-cloud-lab.github.io/
+github_editme_path: cmu-cloud-lab/cmu-cloud-lab.github.io/dev
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 # gitlab_editme_path: 
@@ -38,7 +38,7 @@ feedback_subject_line: Jekyll documentation theme
 feedback_email: tomjoht@gmail.com
 # used as a contact email for the Feedback link in the top navigation bar
 
-feedback_disable: true
+# feedback_disable: true
 # if you uncomment the previous line, the Feedback link gets removed
 
 # feedback_text: "Need help?"
