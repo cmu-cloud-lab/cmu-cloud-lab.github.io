@@ -745,7 +745,7 @@ a.dropdown-toggle.otherProgLangs {
 
 span.muted {color: #666;}
 
-table code {background-color: transparent;}
+table code {background-color: #fcba03;}
 
 .highlight .err {
     color: #a61717;
@@ -1040,7 +1040,7 @@ ol li ul li ol li ul li{
 }
 
 table thead th code.highlighter-rouge {
-    background-color: #030303;
+    background-color: transparent;
 }
 
 
