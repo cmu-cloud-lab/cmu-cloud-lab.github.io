@@ -12,7 +12,7 @@ site_title: CMU Cloud Lab Documentation
 company_name: Ryan Nelson
 # this appears in the footer
 
-github_editme_path: cmu-cloud-lab/cmu-cloud-lab.github.io/dev/
+github_editme_path: cmu-cloud-lab/cmu-cloud-lab.github.io/tree/dev/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 # gitlab_editme_path: 
@@ -100,11 +100,7 @@ defaults:
 # these are defaults used for the frontmatter for these file types
 
 sidebars:
-- home_sidebar
 - mydoc_sidebar
-- product1_sidebar
-- product2_sidebar
-- other
 
 description: "Documentation for CMU Cloud Lab."
 # the description is used in the feed.xml file
