@@ -12,7 +12,7 @@ site_title: CMU Cloud Lab Documentation
 company_name: Copyright 2022 Carnegie Mellon University
 # this appears in the footer
 
-github_editme_path: cmu-cloud-lab/cmu-cloud-lab.github.io/dev
+github_editme_path: cmu-cloud-lab/cmu-cloud-lab.github.io/dev/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 # gitlab_editme_path: 
@@ -71,7 +71,7 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-      comments: true
+      comments: false
       # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
       search: true
       sidebar: home_sidebar
@@ -91,7 +91,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true
+      comments: false
       # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
       search: true
       sidebar: home_sidebar
