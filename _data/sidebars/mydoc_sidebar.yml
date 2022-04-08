@@ -10,25 +10,27 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Get started
+    - title: Getting Started
       url: /index.html
       output: web, pdf
       type: homepage
 
-    - title: Introduction
-      url: /mydoc_introduction.html
+    - title: Keyboard Shortcuts
+      url: /mydoc_overview_keyboard_shortcuts.html
       output: web, pdf
 
   - title: Assays
     output: web, pdf
     folderitems:
 
-    - title: 6.0 Release notes
-      url: /mydoc_release_notes_60.html
-      output: web, pdf
-
     - title: ExperimentqPCR
-      url: /mydoc_ExperimentqPCR.html
+      url: /mydoc_assays_ExperimentqPCR.html
       output: web, pdf
 
- 
+  - title: Contribute Documentation
+    output: web, pdf
+    folderitems:
+
+    - title: Documentation Options
+      url: /mydoc_contributing_documentation_options.html
+      output: web, pdf

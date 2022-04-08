@@ -1,21 +1,15 @@
 ---
-title: Introduction
+title: Keyboard Shortcuts
 sidebar: mydoc_sidebar
-permalink: mydoc_introduction.html
+tags: [getting_started]
+permalink: mydoc_overview_keyboard_shortcuts.html
 folder: mydoc
 ---
 
-## Overview
-b
+## Keyboard Shortcuts
+| command | description |
+|---------|-------------|
+| SHIFT + ENTER|Execute current cell.|
 
-{% include code_header.html %}
-```bash
-ls -l
-```
-
-{% include code_header.html %}
-```bash
-ls -la
-```
 
 {% include links.html %}
