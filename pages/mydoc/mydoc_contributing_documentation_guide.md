@@ -16,7 +16,7 @@ This site uses `kramdown`, which may be slightly different from the markdown syn
 
 
 ## Highlight Options
-You can add different highlights to draw attention to different types of significant notes.
+You can add different highlights to draw attention to specific content.
 
 {% include note.html content="This is a note." %}
 
