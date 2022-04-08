@@ -27,8 +27,8 @@ entries:
       url: /mydoc_release_notes_60.html
       output: web, pdf
 
-    - title: 5.0 Release notes
-      url: /mydoc_release_notes_50.html
+    - title: ExperimentqPCR
+      url: /mydoc_ExperimentqPCR.html
       output: web, pdf
 
  
