@@ -18,13 +18,13 @@ This site uses `kramdown`, which may be slightly different from the markdown syn
 ## Highlight Options
 You can add different highlights to draw attention to different types of significant notes.
 
-{% include note.html content="Test note. <a href='https://cmu-cloud-lab.github.io/index.html'>Link goes here</a>." %}
+{% include note.html content="This is a note." %}
 
-{% include important.html content="Test important." %}
+{% include important.html content="This is an important message." %}
 
-{% include warning.html content="Test warning." %}
+{% include warning.html content="This is a warning message." %}
 
-{% include tip.html content="Test tip." %}
+{% include tip.html content="This is a tip." %}
 
 
 ## Code
