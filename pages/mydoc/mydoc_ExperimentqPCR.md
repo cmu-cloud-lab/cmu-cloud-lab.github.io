@@ -28,7 +28,7 @@ folder: mydoc
 (* Define Primers and Samples *)
 forwardPrimer5 = Object[Sample, "id:bbb"];
 reversePrimer5 = Object[Sample, "id:ccc"];
-myPrimerPairs = {{{forwardPrimer5, reversePrimer5}},{{forwardPrimer5, reversePrimer5}}};
+myPrimerPairs = { { {forwardPrimer5, reversePrimer5} },{ {forwardPrimer5, reversePrimer5} } };
 mySamples = {Object[Sample,"id:zzz"],Object[Sample,"id:aaa"]};
 masterMix = Model[Sample, "Power SYBR Green PCR Master Mix"];
 
