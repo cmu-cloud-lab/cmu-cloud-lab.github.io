@@ -1,36 +1,36 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
 
 entries:
-- title: 
-  product: 
-  version: 
-  folders:
+  - title:
+    product:
+    version:
+    folders:
 
-  - title: Overview
-    output: web, pdf
-    folderitems:
+      - title: Overview
+        output: web, pdf
+        folderitems:
 
-    - title: Getting Started
-      url: /index.html
-      output: web, pdf
-      type: homepage
+          - title: Getting Started
+            url: /index.html
+            output: web, pdf
+            type: homepage
 
-    - title: Keyboard Shortcuts
-      url: /mydoc_overview_keyboard_shortcuts.html
-      output: web, pdf
+          - title: Keyboard Shortcuts
+            url: /mydoc_overview_keyboard_shortcuts.html
+            output: web, pdf
 
-  - title: Assays
-    output: web, pdf
-    folderitems:
+      - title: Assays
+        output: web, pdf
+        folderitems:
 
-    - title: ExperimentqPCR
-      url: /mydoc_assays_ExperimentqPCR.html
-      output: web, pdf
+          - title: ExperimentqPCR
+            url: /mydoc_assays_ExperimentqPCR.html
+            output: web, pdf
 
-  - title: Contribute Documentation
-    output: web, pdf
-    folderitems:
+      - title: Contribute Documentation
+        output: web, pdf
+        folderitems:
 
-    - title: Documentation Options
-      url: /mydoc_contributing_documentation_options.html
-      output: web, pdf
+          - title: Documentation Options
+            url: /mydoc_contributing_documentation_options.html
+            output: web, pdf
