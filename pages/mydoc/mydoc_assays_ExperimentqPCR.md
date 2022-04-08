@@ -7,8 +7,9 @@ sidebar: mydoc_sidebar
 permalink: mydoc_assays_ExperimentqPCR.html
 folder: mydoc
 ---
-## Notes
-### Code
+
+## Code
+### Notes
 {% include important.html content="Default settings can easily lead to a failed experiment if they don't match the chosen Master Mix. Confirm settings against the Master Mix protocol to be sure." %}
 
 - Parameters that must typically be set by the user, based on the desired Master Mix:
@@ -17,12 +18,7 @@ folder: mydoc
   - `ExtensionTime`
   - `DenaturationTime`
 
-### Analysis
-- Default `BaselineDomain` range may lead to incorrect analysis of the Quantification Cycle. If initial analysis results in a Quantification Cycle that occurs in the middle of the amplification curve, reduce the upper range value.
-- After executing `AnalyzeQuantificationCycle[]`, re-run `PlotObject[]` to see the Quantification Cycle show up on the plot (as a large dot).
-
-## Example 1 - Multiple Samples
-### Code
+### Example 1 - Multiple Samples
 {% include code_header.html %}
 ```mathematica
 (* Define Primers and Samples *)
@@ -46,7 +42,12 @@ myExperimentqPCR = ExperimentqPCR[
 ]
 ```
 
-### Analysis
+## Analysis
+### Notes
+- Default `BaselineDomain` range may lead to incorrect analysis of the Quantification Cycle. If initial analysis results in a Quantification Cycle that occurs in the middle of the amplification curve, reduce the upper range value.
+- After executing `AnalyzeQuantificationCycle[]`, re-run `PlotObject[]` to see the Quantification Cycle show up on the plot (as a large dot).
+
+### Example 1
 {% include code_header.html %}
 ```mathematica
 (* Analyze Quantification Cycle *)
