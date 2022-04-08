@@ -7,14 +7,22 @@ sidebar: mydoc_sidebar
 permalink: mydoc_ExperimentqPCR.html
 folder: mydoc
 ---
-
 ## Notes
-- Default value for melting curve time is 2333s, which may not be desirable.
+### Code
+{% include important.html content="Default settings can easily lead to a failed experiment if they don't match the chosen Master Mix. Confirm settings against the Master Mix protocol to be sure." %}
 
-{% include important.html content="Default values for activation time, extension time, and denaturation time are not always correctly set for a given Master Mix. Confirm settings with the chosen Master Mix procotol." %}
+- Parameters that must typically be set by the user, based on the desired Master Mix:
+  - `MeltingCurveTime`: defaults to 2333s, which won't mess up your experiment but may not be desirable
+  - `ActivationTime`: default of 1 minute may not be long enough to activate the polymerase in the Master Mix
+  - `ExtensionTime`
+  - `DenaturationTime`
 
+### Analysis
+{% include important.html content="Default `BaselineDomain` range may lead to incorrect analysis of the Quantification Cycle. If initial analysis results in a Quantification Cycle that occurs in the middle of the amplification curve, reduce the upper range value." %}
+- After executing `AnalyzeQuantificationCycle[]`, re-run `PlotObject[]` to see the Quantification Cycle show up on the plot (as a large dot).
 
 ## Example 1 - Multiple Samples
+### Code
 {% include code_header.html %}
 ```mathematica
 (* Define Primers and Samples *)
@@ -38,9 +46,21 @@ myExperimentqPCR = ExperimentqPCR[
 ]
 ```
 
+### Analysis
 {% include code_header.html %}
-```bash
-ls -l
+```mathematica
+(* Analyze Quantification Cycle *)
+AnalyzeQuantificationCycle[
+    myExperimentqPCR,
+    BaselineDomain -> {3 Cycle, 8 Cycle}
+]
+
+(* Plot Amplification Curve *)
+PlotObject[myExperimentqPCR[Data]]
 ```
+
+<img src="/images/ExperimentqPCR.ex001.plot001.png" alt="Analysis" />
+
+
 
 {% include links.html %}
