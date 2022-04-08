@@ -31,6 +31,6 @@ entries:
         output: web, pdf
         folderitems:
 
-          - title: Documentation Options
+          - title: Documentation Guide
             url: /mydoc_contributing_documentation_guide.html
             output: web, pdf
