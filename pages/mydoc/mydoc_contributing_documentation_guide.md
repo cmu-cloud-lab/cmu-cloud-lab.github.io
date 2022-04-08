@@ -1,7 +1,7 @@
 ---
 title: Documentation Guide
 sidebar: mydoc_sidebar
-tags: [getting_started]
+tags: [documentation]
 keywords: getting_started
 last_updated: April 7, 2022
 permalink: mydoc_contributing_documentation_guide.html
