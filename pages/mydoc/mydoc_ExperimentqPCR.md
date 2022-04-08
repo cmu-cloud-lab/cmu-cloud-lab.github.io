@@ -8,18 +8,15 @@ permalink: mydoc_ExperimentqPCR.html
 folder: mydoc
 ---
 
-## Code Examples
-### Example 1 - Multiple Samples
-{% include note.html content="Test note." %}
+## Notes
+- Default value for melting curve time is 2333s, which may not be desirable.
 
-{% include important.html content="Test important." %}
+{% include important.html content="Default values for activation time, extension time, and denaturation time are not always correctly set for a given Master Mix. Confirm settings with the chosen Master Mix procotol." %}
 
-{% include warning.html content="Test warning." %}
 
-{% include tip.html content="Test tip." %}
-
+## Example 1 - Multiple Samples
 {% include code_header.html %}
-```Mathematica
+```mathematica
 (* Define Primers and Samples *)
 forwardPrimer5 = Object[Sample, "id:bbb"];
 reversePrimer5 = Object[Sample, "id:ccc"];
@@ -39,6 +36,11 @@ myExperimentqPCR = ExperimentqPCR[
 	DenaturationTime -> 60 Second,
 	Name -> "qPCR Experiment 001"
 ]
+```
+
+{% include code_header.html %}
+```bash
+ls -l
 ```
 
 {% include links.html %}
