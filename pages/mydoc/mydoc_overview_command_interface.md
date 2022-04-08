@@ -1,6 +1,7 @@
 ---
 title: Command Interface
 sidebar: mydoc_sidebar
+keywords: keyboard, shortcut
 tags: [getting_started]
 permalink: mydoc_overview_command_interface.html
 folder: mydoc
