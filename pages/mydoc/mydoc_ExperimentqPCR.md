@@ -1,7 +1,7 @@
 ---
 title: ExperimentqPCR
-tags: [qPCR, Assays, DNA]
-keywords: qPCR, Assays, DNA
+tags: [qPCR, assays, DNA]
+keywords: qPCR, assays, DNA
 last_updated: April 7, 2022
 sidebar: mydoc_sidebar
 permalink: mydoc_ExperimentqPCR.html
