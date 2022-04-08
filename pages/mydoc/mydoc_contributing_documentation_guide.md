@@ -2,7 +2,7 @@
 title: Documentation Guide
 sidebar: mydoc_sidebar
 tags: [documentation]
-keywords: getting_started
+keywords: documentation
 last_updated: April 7, 2022
 permalink: mydoc_contributing_documentation_guide.html
 folder: mydoc
