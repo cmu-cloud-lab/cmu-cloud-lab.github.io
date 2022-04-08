@@ -19,7 +19,7 @@ entries:
       url: /mydoc_introduction.html
       output: web, pdf
 
-  - title: Release Notes
+  - title: Assays
     output: web, pdf
     folderitems:
 

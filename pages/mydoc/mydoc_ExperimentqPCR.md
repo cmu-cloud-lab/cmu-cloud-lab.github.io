@@ -18,7 +18,7 @@ folder: mydoc
   - `DenaturationTime`
 
 ### Analysis
-{% include important.html content="Default `BaselineDomain` range may lead to incorrect analysis of the Quantification Cycle. If initial analysis results in a Quantification Cycle that occurs in the middle of the amplification curve, reduce the upper range value." %}
+- Default `BaselineDomain` range may lead to incorrect analysis of the Quantification Cycle. If initial analysis results in a Quantification Cycle that occurs in the middle of the amplification curve, reduce the upper range value.
 - After executing `AnalyzeQuantificationCycle[]`, re-run `PlotObject[]` to see the Quantification Cycle show up on the plot (as a large dot).
 
 ## Example 1 - Multiple Samples
@@ -59,8 +59,12 @@ AnalyzeQuantificationCycle[
 PlotObject[myExperimentqPCR[Data]]
 ```
 
-<img src="/images/ExperimentqPCR.ex001.plot001.png" alt="Analysis" />
+Incorrect Quantification Cycle
+<img src="/images/ExperimentqPCR.ex001.plot001.png" alt="Analysis 1" height="600"/>
 
+
+Corrected Quantification Cycle
+<img src="/images/ExperimentqPCR.ex001.plot002.png" alt="Analysis 2" height="600"/>
 
 
 {% include links.html %}
