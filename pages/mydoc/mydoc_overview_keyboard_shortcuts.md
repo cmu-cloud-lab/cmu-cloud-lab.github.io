@@ -7,9 +7,9 @@ folder: mydoc
 ---
 
 ## Keyboard Shortcuts
-| command | description |
-|---------|-------------|
-| SHIFT + ENTER|Execute current cell.|
+| command |      description      |
+|:--------|:---------------------:|
+| SHIFT + ENTER| Execute current cell. |    
 
 
 {% include links.html %}
